@@ -17,7 +17,7 @@ const PublicHome = () => {
         setStatus('⚠️ Unknown Status');
       }
     } catch (error) {
-      setStatus('❌ Cannot connect to Backend');
+      setStatus('❌ Cannot connect to Backend after retries');
     }
   };
 
